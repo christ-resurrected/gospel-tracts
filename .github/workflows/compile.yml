@@ -1,0 +1,23 @@
+name: Compile and commit Typst files
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - uses: typst-community/setup-typst@v3
+        with:
+          typst-version: 0.12.0
+      - run: typst compile tract_A6_2s.typ ./pdf/tract_A6_2s.pdf
+      - run: typst compile tract_pocket_trifold.typ ./pdf/tract_pocket_trifold.pdf
+
+      - name: Commit compiled PDFs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: '[Continuous Deployment]: Compile Typst to PDF'
