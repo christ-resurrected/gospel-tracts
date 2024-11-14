@@ -4,7 +4,7 @@
 
 Inspired by Adam's [Gospel Tract #1](https://abideintheword.com/evangelism) at [AbideInTheWord.com](https://abideintheword.com).
 
-If you live in the UK, for printing I recommended [Mixam Leaflets & Flyers](https://mixam.co.uk/flyers) with the following options:
+For printing in the UK I recommend [Mixam Leaflets & Flyers](https://mixam.co.uk/flyers) with the following options:
 
 - Orientation: portrait
 - Size: A6 (105 mm x 148 mm)
