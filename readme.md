@@ -19,4 +19,4 @@ For printing in the UK I recommend [Mixam Leaflets & Flyers](https://mixam.co.uk
 
 Inspired by Thomas Albin Holmes' [Polish Gospel Tract](https://docs.google.com/document/d/1nw98_2VB3hayzH0XHPzGlwBWH2TvXYnWT5TD-7Ep8bc).
 
-This tract folds into a compact form 72mm x 140mm
+This tract folds into a compact 72mm x 140mm.
