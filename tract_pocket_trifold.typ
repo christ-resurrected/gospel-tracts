@@ -118,8 +118,8 @@
       faith.christ,
     )[JESUS DIED AND ROSE FROM THE GRAVE]
     #v(-1mm) Jesus was crucified unjustly but God raised Him from the dead, proving Jesus is the Son of God.
-    He gave His life as a ransom, to open our eyes, to turn us back to God and free us from our selfish sinful ways.
-    He greatly suffered hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
+    He gave His life as a ransom, to open our eyes, to turn us back to God and free us from our selfish ways.
+    He suffered greatly, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
     #see[Matthew 12:39-40; Mrk.10:45, 12:29-31; John 12:32; Acts 26:18]
 
     #h2-emoji(dx: -0mm, dy: -2mm, size: 25pt, scale-x: 100%, seedling)[FORGIVENESS AND NEW LIFE OFFERED TO ALL]
