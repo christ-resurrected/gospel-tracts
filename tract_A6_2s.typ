@@ -20,8 +20,6 @@
   ) #v(-2mm)
   Our Lord Jesus Christ and His apostles explicitly warn us of the coming eternal judgement and the danger of living in sin:
 
-  #let fire-text = it => strong(text(cmyk(00%, 20%, 30%, 00%), stroke: 0.1pt + cmyk-red, it))
-  #show regex("brimstone|burns|fire|hell|worm"): fire-text
   #verse[Mark 9:43-44 NKJV][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
   #seeAlso[Matt.5:27-30, 13:47-50, 25:41-46; Luke 12:4-5, 16:22-24].
 
