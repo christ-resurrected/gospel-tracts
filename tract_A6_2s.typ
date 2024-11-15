@@ -1,4 +1,4 @@
-#import "lib/page.typ": set-page, set-style
+#import "lib/page.typ": h1-emoji, set-page, set-style
 #import "lib/qr.typ": qr-footer
 #import "lib/theme.typ": cmyk-red, set-theme
 #import "lib/scripture.typ": see, seeAlso, verse
@@ -7,14 +7,6 @@
 #show: set-page.with(bleed: 3mm, safe: 4mm, height: 148.5mm, width: 105mm)
 #show: set-style.with(text-size: 11pt)
 #show heading.where(level: 1): text.with(17pt)
-
-#let h1-emoji(x: 0pt, dy: -7pt, size: 20pt, emoji, body) = {
-  // workaround noto-emoji position bugs -- see typst issue #5242
-  show emoji: text.with(size: size)
-  place(left, dx: x, dy: dy, scale(x: -100%, emoji))
-  place(right, dx: -x, dy: dy, emoji)
-  [= #body]
-}
 
 // #show: page-theme.with(id: "dark") - BUG #420: this overrides show<refs> in #show page-theme.with(id: "light")
 #set-theme("dark")[

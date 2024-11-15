@@ -1,4 +1,4 @@
-#import "lib/page.typ": set-page, set-style
+#import "lib/page.typ": h1-emoji, set-page, set-style
 #import "lib/qr.typ": qr-footer
 #import "lib/scripture.typ": see, seeAlso, verse
 #import "lib/theme.typ": set-theme
@@ -51,14 +51,6 @@
     columns: (front-width + back-width, flap-width),
     panel(columns(2, gutter: safe + safe, front-back)), panel(flap),
   )
-}
-
-#let h1-emoji(x: 0pt, dy: -7pt, size: 20pt, emoji, body) = {
-  // workaround noto-emoji position bugs -- see typst issue #5242
-  show emoji: text.with(size: size)
-  place(left, dx: x, dy: dy, scale(x: -100%, emoji))
-  place(right, dx: -x, dy: dy, emoji)
-  [= #body]
 }
 
 #let h2-emoji(dx: 0mm, dy: 0mm, scale-x: 100%, size: 30pt, width: 4fr, emoji, body) = {
