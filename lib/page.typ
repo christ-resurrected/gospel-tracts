@@ -1,3 +1,9 @@
+#let h1-dove(dx: 0pt, dy: -4pt, width: 6fr, body) = {
+  let dove = scale(x: -100%)[#image("/asset/dove-of-peace.svg", width: 39pt)]
+  grid(columns: (1fr, width))[#move(dx: dx, dy: dy, dove)][= #body]
+  v(-2mm)
+}
+
 #let h1-emoji(x: 0pt, dy: -7pt, size: 20pt, emoji, body) = {
   // workaround noto-emoji position bugs -- see typst issue #5242
   show emoji: text.with(size: size)

@@ -1,4 +1,4 @@
-#import "lib/page.typ": h1-emoji, set-page, set-style
+#import "lib/page.typ": h1-dove, h1-emoji, set-page, set-style
 #import "lib/qr.typ": qr-footer
 #import "lib/theme.typ": cmyk-red, set-theme
 #import "lib/scripture.typ": see, seeAlso, verse
@@ -27,8 +27,7 @@
 
 #set-theme("light")[
   #show heading: par.with(leading: 0.5em)
-  #let dove = scale(x: -100%)[#image("asset/dove-of-peace.svg", width: 39pt)]
-  #grid(columns: (1fr, 6fr))[#move(dx: -4pt, dy: -4pt, dove)][= REPENT, FOR THE KINGDOM OF HEAVEN IS AT HAND!] #v(-2mm)
+  #h1-dove(dx: -4pt, width: 5.5fr)[REPENT, FOR THE KINGDOM OF HEAVEN IS AT HAND!]
   Jesus came to free us from sin, to open our eyes and turn us from darkness to light, and from the power of Satan to God #see[Acts 26:18], to transform us into children of God who *practice righteousness*.
 
   Just as Jesus humbled Himself in *obedience* even to the point of death on a cross, was buried, and rose on the third day, we must also follow His example and take up our own cross, humble ourselves and turn away from our sins in true *repentance*, bury the old life of sin in baptism, and be raised to a new life by receiving the Holy Spirit #see[John 3:3-7; Acts 2:38, 3:19, 5:32, 8:15-17].
