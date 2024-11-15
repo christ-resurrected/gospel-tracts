@@ -117,7 +117,7 @@
       width: 6fr,
       faith.christ,
     )[JESUS DIED AND ROSE FROM THE GRAVE]
-    #v(-1mm) Jesus was crucified unjustly but God raised Him from the dead and exalted Him to His right hand, proving Jesus is the Son of God.
+    #v(-1mm) Jesus was crucified lawlessly but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God.
     Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to free us from our selfish ways.
     This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
     #see[Matthew 12:39-40; Mrk.10:45, 12:29-31; John 12:32; Acts 26:18]
