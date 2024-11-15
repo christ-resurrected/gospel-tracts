@@ -9,11 +9,11 @@
     fg: cmyk-white,
     h1: cmyk-red,
     ref: cmyk(30%, 00%, 00%, 00%),
-    ref-hi: cmyk(99%, 00%, 00%, 80%),
+    ref-hl: cmyk(99%, 00%, 00%, 80%),
     strong: cmyk-white,
     verse: cmyk(00%, 00%, 10%, 00%),
     verse-extent: 0mm, // typst bug #2939 manifests if > 0
-    verse-hi: cmyk(00%, 95%, 95%, 63%),
+    verse-hl: cmyk(00%, 95%, 95%, 63%),
     verse-strong: cmyk(00%, 40%, 80%, 00%),
   ),
   light: (
@@ -21,11 +21,11 @@
     fg: cmyk-black,
     h1: cmyk-black,
     ref: cmyk(99%, 30%, 00%, 70%),
-    ref-hi: cmyk(00%, 00%, 70%, 00%),
+    ref-hl: cmyk(00%, 00%, 70%, 00%),
     strong: cmyk(99%, 00%, 99%, 30%),
     verse: cmyk-white,
     verse-extent: 1mm,
-    verse-hi: cmyk(00%, 95%, 95%, 53%),
+    verse-hl: cmyk(00%, 95%, 95%, 53%),
     verse-strong: cmyk(00%, 00%, 30%, 00%),
   ),
 )
@@ -36,12 +36,12 @@
   set page(fill: theme.bg) if new-page
   set text(fill: theme.fg) if set-text
   show <refs>: it => {
-    set highlight(fill: theme.ref-hi) if set-text
+    set highlight(fill: theme.ref-hl) if set-text
     set text(theme.ref) if set-text
     it
   }
   show <verse>: it => {
-    set highlight(extent: theme.verse-extent, fill: theme.verse-hi) if set-text
+    set highlight(extent: theme.verse-extent, fill: theme.verse-hl) if set-text
     set text(theme.verse) if set-text
     show strong: set text(theme.verse-strong) if set-text
     it
