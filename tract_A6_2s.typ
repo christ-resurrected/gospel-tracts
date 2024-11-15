@@ -8,16 +8,19 @@
 #show: set-style.with(text-size: 11pt)
 #show heading.where(level: 1): text.with(17pt)
 
+#let h1-emoji(x: 0pt, dy: -7pt, size: 20pt, emoji, body) = {
+  // workaround noto-emoji position bugs -- see typst issue #5242
+  show emoji: text.with(size: size)
+  place(left, dx: x, dy: dy, scale(x: -100%, emoji))
+  place(right, dx: -x, dy: dy, emoji)
+  [= #body]
+}
+
 // #show: page-theme.with(id: "dark") - BUG #420: this overrides show<refs> in #show page-theme.with(id: "light")
 #set-theme("dark")[
-  #show fire: text.with(size: 20pt)
-  #show skull.bones: text.with(font: "Noto Color Emoji", size: 20pt)
-  #grid(
-    align: (left, center + horizon, right),
-    columns: (auto, 1fr, auto),
-    rows: 29pt,
-    [#fire#skull.bones], [= WARNING! DANGER!], [#skull.bones#fire],
-  ) #v(-2mm)
+  #show heading.where(level: 1): align.with(center)
+  #show skull.bones: text.with(font: "Noto Color Emoji") // fix
+  #h1-emoji(skull.bones + fire)[WARNING! DANGER!] #v(2mm)
   Our Lord Jesus Christ and His apostles explicitly warn us of the coming eternal judgement and the danger of living in sin:
 
   #verse[Mark 9:43-44 NKJV][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
