@@ -41,7 +41,6 @@
 }
 
 #let trifold-interior(front-back, flap) = {
-  show heading.where(level: 1): align.with(center)
   show heading.where(level: 1): text.with(17pt)
   show heading: par.with(leading: 0.5em)
   show: set-theme.with("light")
@@ -96,7 +95,8 @@
 
 #trifold-interior(
   [
-    #h1-emoji(dy: 2mm, size: 25pt, sym.tilde)[THE GOSPEL OF \ JESUS CHRIST]
+    #let dove = scale(x: -100%)[#image("asset/dove-of-peace.svg", width: 39pt)]
+    #grid(columns: (1fr, 3fr))[#move(dy: -4pt, dove)][= THE GOSPEL OF \ JESUS CHRIST] #v(-2mm)
     #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]*]
 
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
