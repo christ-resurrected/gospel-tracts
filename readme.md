@@ -20,3 +20,12 @@ For printing in the UK I recommend [Mixam Leaflets & Flyers](https://mixam.co.uk
 Inspired by Thomas Albin Holmes' [Poland Gospel Tract](https://docs.google.com/document/d/1nw98_2VB3hayzH0XHPzGlwBWH2TvXYnWT5TD-7Ep8bc).
 
 This tract folds into a compact 72mm x 140mm.
+
+## Build requirements
+
+- [Typst](https://typst.app)
+- [Noto Color Emoji](https://fonts.google.com/noto/specimen/Noto+Color+Emoji) font
+
+## Attribution
+
+- [asset/dove-of-peace.svg](asset/dove-of-peace.svg) artwork is provided by [Emojitwo](https://emojitwo.github.io/) and licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
