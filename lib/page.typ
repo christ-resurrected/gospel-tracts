@@ -24,5 +24,6 @@
 #let set-style(text-size: none, body) = {
   set par(justify: true)
   set text(font: "DejaVu Sans Mono", size: text-size)
+  show emoji.skull.bones: text.with(font: "Noto Color Emoji") // fix
   body
 }

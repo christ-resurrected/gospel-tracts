@@ -11,7 +11,6 @@
 // #show: page-theme.with(id: "dark") - BUG #420: this overrides show<refs> in #show page-theme.with(id: "light")
 #set-theme("dark")[
   #show heading.where(level: 1): align.with(center)
-  #show skull.bones: text.with(font: "Noto Color Emoji") // fix
   #h1-emoji(skull.bones + fire)[WARNING! DANGER!] #v(2mm)
   Our Lord Jesus Christ and His apostles explicitly warn us of the coming eternal judgement and the danger of living in sin:
 
