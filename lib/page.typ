@@ -12,6 +12,12 @@
   [= #body]
 }
 
+#let h2-emoji(dx: 0mm, dy: 0mm, scale-x: 100%, size: 30pt, width: 4fr, emoji, body) = {
+  show emoji: text.with(size: size)
+  show emoji: scale.with(x: scale-x)
+  grid(columns: (1fr, width))[#place(dx: dx, dy: dy, emoji)][== #body]
+}
+
 #let set-page(bleed: 0mm, safe: 0mm, height: none, width: none, body) = {
   set page(
     margin: (safe + bleed),

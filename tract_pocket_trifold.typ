@@ -1,4 +1,4 @@
-#import "lib/page.typ": h1-dove, h1-emoji, set-page, set-style
+#import "lib/page.typ": *
 #import "lib/qr.typ": qr-footer
 #import "lib/scripture.typ": see, seeAlso, verse
 #import "lib/theme.typ": set-theme
@@ -50,12 +50,6 @@
     columns: (front-width + back-width, flap-width),
     panel(columns(2, gutter: safe + safe, front-back)), panel(flap),
   )
-}
-
-#let h2-emoji(dx: 0mm, dy: 0mm, scale-x: 100%, size: 30pt, width: 4fr, emoji, body) = {
-  show emoji: text.with(size: size)
-  show emoji: scale.with(x: scale-x)
-  grid(columns: (1fr, width))[#place(dx: dx, dy: dy, emoji)][== #body]
 }
 
 #trifold-exterior(
