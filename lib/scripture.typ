@@ -31,7 +31,7 @@
 
 #let verse(ref, body) = {
   context {
-    set highlight(bottom-edge: -4pt, top-edge: text.size + 2pt, extent: 4pt, radius: 3pt)
+    set highlight(bottom-edge: -4pt, top-edge: text.size + 2pt, radius: 3pt)
     [#("" + highlight(body))<verse>] // without adding "" the theme <verse> highlight show rule does not work
   }
   [ -- #references(ref)<refs>]
