@@ -117,15 +117,15 @@
       width: 6fr,
       faith.christ,
     )[JESUS DIED AND ROSE FROM THE GRAVE]
-    #v(-1mm) Jesus was crucified unjustly but God raised Him from the dead, proving Jesus is the Son of God.
-    He gave His life as a ransom, to open our eyes, to turn us back to God and free us from our selfish ways.
-    He suffered greatly, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
+    #v(-1mm) Jesus was crucified unjustly but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God.
+    Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to free us from our selfish ways.
+    This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
     #see[Matthew 12:39-40; Mrk.10:45, 12:29-31; John 12:32; Acts 26:18]
 
     #h2-emoji(dx: -0mm, dy: -2mm, size: 25pt, scale-x: 100%, seedling)[FORGIVENESS AND NEW LIFE OFFERED TO ALL]
     #verse[John 14:6][Jesus said to him, *#quote[I am the way, the truth, and the life. No one comes to the Father except through Me.]*]
 
-    All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from captivity to sin and receive the Holy Spirit to give them power for a new supernatural life. This is a gift of God’s grace, but is not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive His grace in vain.
+    All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from captivity to sin and receive the Holy Spirit, empowered for a new life. This is a gift of God’s grace, but is not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
     #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Tit.2:11-14; Jude 1:4]
   ],
   [
