@@ -18,10 +18,11 @@
   #verse[Mark 9:43-44 NKJV][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
   #seeAlso[Matt.5:27-30, 13:47-50, 25:41-46; Luke 12:4-5, 16:22-24].
 
+  #verse[Revelation 21:8][#quote[But the *cowardly*, *unbelieving*, *abominable*, *murderers*, *sexually immoral*, *sorcerers*, *idolaters*, and all *liars* shall have their part in the lake which burns with fire and *brimstone*, which is the second death.]]
+  #seeAlso[2-Thes.1:7-10; Heb.12:29; Rev.14:10-11, 20:12-15; Mal.4:1].
 
-  #verse[Revelation 21:8][#quote[But the *cowardly*, *unbelieving*, *abominable*, *murderers*, *sexually immoral*, *sorcerers*, *idolaters*, and all *liars* shall have their part in the lake which burns with fire and *brimstone*, which is the second death.]] #seeAlso[Galatians 5:19-21; Ephesians 5:5-6; Col.3:5-9; 2-Thes.1:7-9; Heb. 9:27, 10:31; Rev.14:10-11, 20:12-15].
-
-  #verse[1-Corinthians 6:10][nor *thieves*, nor *covetous*, nor *drunkards*, nor *revilers*, nor *extortioners* will inherit the kingdom of God.]
+  #verse[1-Cor.6:10][nor *thieves*, nor *covetous*, nor *drunkards*, nor *revilers*, nor *extortioners* will inherit the kingdom of God.]
+  #seeAlso[v9; Mark 7:21-22; Rom.1:18,28-32, 2:3-9; Gal.5:19-21; Eph.5:5-6; Col.3:5-9; Heb.9:27].
 ]
 
 #set-theme("light")[
