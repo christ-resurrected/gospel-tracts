@@ -26,7 +26,7 @@
     verse: cmyk-white,
     verse-extent: 1mm,
     verse-hi: cmyk(00%, 95%, 95%, 53%),
-    verse-strong: cmyk-white,
+    verse-strong: cmyk(00%, 00%, 30%, 00%),
   ),
 )
 
