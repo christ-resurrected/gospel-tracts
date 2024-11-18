@@ -99,7 +99,7 @@
     #h2-emoji(dx: -0mm, dy: -2mm, size: 25pt, scale-x: 100%, seedling)[FORGIVENESS AND NEW LIFE OFFERED TO ALL]
     #verse[John 14:6][Jesus said to him, *#quote[I am the way, the truth, and the life. No one comes to the Father except through Me.]*]
 
-    All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from captivity to sin and receive the Holy Spirit, empowered for a new life. This is a gift of God’s grace, but is not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
+    All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from captivity to sin and receive the Holy Spirit, empowered for a supernatural life. This is a gift of God’s grace, but not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
     #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Tit.2:11-14; Jude 1:4]
   ],
   [ #h2-emoji(dx: -0mm, dy: -2mm, size: 25pt, width: 5fr, emoji.quest)[HOW MUST WE RESPOND \ TO THIS GOOD NEWS?]
