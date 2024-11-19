@@ -78,7 +78,7 @@
     #verse[Hebrews 9:27 NKJV][And as it is appointed for men to die once, but after this the judgement]
     #seeAlso[Heb. 4:13, 10:26-31]
 
-    #verse[Revelation 21:8][#quote[But the *cowardly*, *unbelieving*, *abominable*, *murderers*, *sexually immoral*, *sorcerers*, *idolaters*, and all *liars* shall have their part in the lake which burns with fire and *brimstone*, which is the second death.]]
+    #verse[Revelation 21:8][#quote[But the *cowardly*, *unbelieving*, *abominable*, *murderers*, *sexually immoral*, *sorcerers*, *idolaters*, and all *liars* shall have their part in the lake which burns with fire and brimstone, which is the second death.]]
     #seeAlso[Rev. 14:10-11, 20:10-15, 22:15; 2-Peter 3:7,10-12; Jude 1:6-7, 13; Mal.4:1; Isaiah 33:14].
   ],
 )
