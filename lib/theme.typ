@@ -13,6 +13,7 @@
     strong: cmyk-white,
     verse: cmyk(00%, 00%, 10%, 00%),
     verse-extent: 0mm, // typst bug #2939 manifests if > 0
+    verse-jesus: cmyk-red,
     verse-hl: cmyk(00%, 95%, 95%, 63%),
     verse-strong: cmyk(00%, 40%, 80%, 00%),
   ),
@@ -25,6 +26,7 @@
     strong: cmyk(99%, 00%, 99%, 30%),
     verse: cmyk-black,
     verse-extent: 1mm,
+    verse-jesus: cmyk-red,
     verse-hl: cmyk(00%, 00%, 00%, 15%),
     verse-strong: cmyk(90%, 00%, 00%, 50%),
   ),
@@ -42,8 +44,9 @@
   }
   show <verse>: it => {
     set highlight(extent: theme.verse-extent, fill: theme.verse-hl) if set-text
-    set text(fill: theme.verse, style: "italic") if set-text
+    set text(theme.verse, style: "italic") if set-text
     show strong: set text(theme.verse-strong) if set-text
+    show <jesus>: set text(theme.verse-jesus) if set-text
     it
   }
   show heading.where(level: 1): set text(theme.h1) if set-text

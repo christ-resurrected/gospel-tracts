@@ -85,7 +85,7 @@
 
 #trifold-interior(
   [ #h1-dove(width: 3fr)[THE GOSPEL OF \ JESUS CHRIST]
-    #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]*]
+    #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]<jesus>*]
 
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
     #see[Mat. 24:14; Mark 1:14-15, 9:47; Luke 4:43; John 3:3-5]
@@ -97,7 +97,7 @@
     #see[Matthew 12:39-40; Mrk.10:45, 12:29-31; John 12:32; Acts 26:18]
 
     #h2-emoji(dx: -0mm, dy: -2mm, size: 25pt, scale-x: 100%, seedling)[FORGIVENESS AND NEW LIFE OFFERED TO ALL]
-    #verse[John 14:6][Jesus said to him, *#quote[I am the way, the truth, and the life. No one comes to the Father except through Me.]*]
+    #verse[John 14:6][Jesus said to him, *#quote[I am the way, the truth, and the life. No one comes to the Father except through Me.]<jesus>*]
 
     All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from captivity to sin and receive the Holy Spirit, empowered for a supernatural life. This is a gift of God’s grace, but not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
     #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Tit.2:11-14; Jude 1:4]
