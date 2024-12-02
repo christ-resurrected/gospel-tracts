@@ -23,16 +23,16 @@
     ref: cmyk(99%, 30%, 00%, 70%),
     ref-hl: cmyk(00%, 00%, 70%, 00%),
     strong: cmyk(99%, 00%, 99%, 30%),
-    verse: cmyk-white,
+    verse: cmyk-black,
     verse-extent: 1mm,
-    verse-hl: cmyk(99%, 00%, 00%, 80%),
-    verse-strong: cmyk(30%, 00%, 00%, 00%),
+    verse-hl: cmyk(00%, 00%, 00%, 15%),
+    verse-strong: cmyk(90%, 00%, 00%, 50%),
   ),
 )
 
 #let set-theme(new-page: true, set-text: true, id, body) = {
   let theme = themes.at(id)
-  let fire-text = it => strong(text(fill: cmyk-fire, stroke: 0.3pt + cmyk-red, it))
+  let fire-text = it => strong(text(fill: cmyk-fire, stroke: 0.3pt + cmyk-white, it))
   set page(fill: theme.bg) if new-page
   set text(fill: theme.fg) if set-text
   show <refs>: it => {
