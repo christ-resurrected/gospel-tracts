@@ -42,7 +42,7 @@
   }
   show <verse>: it => {
     set highlight(extent: theme.verse-extent, fill: theme.verse-hl) if set-text
-    set text(theme.verse) if set-text
+    set text(fill: theme.verse, style: "italic") if set-text
     show strong: set text(theme.verse-strong) if set-text
     it
   }
