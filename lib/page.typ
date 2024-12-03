@@ -6,10 +6,9 @@
   [= #body]
 }
 
-#let h2-emoji(dx: 0mm, dy: 0mm, scale-x: 100%, size: 30pt, width: 4fr, emoji, body) = {
+#let emoji-heading(dx: 0mm, dy: 0mm, hd-w: 4fr, size: 40pt, emoji, body) = {
   show emoji: text.with(size: size)
-  show emoji: scale.with(x: scale-x)
-  grid(columns: (1fr, width))[#place(dx: dx, dy: dy, emoji)][== #body]
+  grid(columns: (1fr, hd-w))[#place(dx: dx, dy: dy, emoji)][== #body]
 }
 
 #let image-heading(dx: 0pt, dy: 0pt, hd-w: 5fr, img-w: 25pt, img-x: +1, img-name, heading) = {
