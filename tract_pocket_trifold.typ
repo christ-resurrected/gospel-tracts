@@ -85,7 +85,7 @@
 
 #trifold-interior(
   [
-    #image-heading("dove", dy: -4pt, hd-w: 3fr, img-w: 39pt, img-x: -1)[= THE GOSPEL OF \ JESUS CHRIST] #v(-2mm)
+    #image-heading("dove", dy: -2pt, hd-w: 3fr, img-w: 39pt, img-x: -1)[= THE GOSPEL OF \ JESUS CHRIST] #v(-2mm)
     #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]<jesus>*]
 
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
