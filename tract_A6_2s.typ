@@ -26,7 +26,6 @@
 
 #set-theme("light")[
   #show heading: par.with(leading: 0.5em)
-  // #h1-dove(dx: -4pt, width: 5.5fr)[REPENT, FOR THE KINGDOM OF HEAVEN IS AT HAND!]
   #image-heading("dove", dx: -4pt, hd-w: 5.5fr, img-w: 39pt, img-x: -1)[= REPENT, FOR THE KINGDOM OF HEAVEN IS AT HAND!]
   #v(-2mm) Jesus came to free us from sin, to open our eyes and turn us from darkness to light, and from the power of Satan to God #see[Acts 26:18], to transform us into people who *love* God and *practice righteousness*.
 
