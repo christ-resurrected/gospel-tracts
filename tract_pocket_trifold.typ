@@ -102,7 +102,7 @@
     All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from captivity to sin and receive the Holy Spirit, empowered for a supernatural life. This is a gift of God’s grace, but not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
     #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Tit.2:11-14; Jude 1:4]
   ],
-  [ #h2-emoji(dx: -0mm, dy: -2mm, size: 25pt, width: 5fr, quest)[HOW MUST WE RESPOND \ TO THIS GOOD NEWS?]
+  [ #image-heading("/asset/question-mark.svg")[== HOW MUST WE RESPOND \ TO THIS GOOD NEWS?] #v(-0.5mm)
     #verse[Acts 2:38][Then Peter said to them,\ *#quote[Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.]*] #seeAlso[Acts 3:19].
 
     Being a Christian means a *full surrender* of your whole life to Jesus as your Lord and King. If you are ready for that commitment, you must *repent* and be baptized in His name. Then you must learn to *obey* all He taught and commanded, take up your cross, and follow Him to the very end. God will help you if you are *willing* and *obedient*

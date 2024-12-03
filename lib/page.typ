@@ -18,6 +18,11 @@
   grid(columns: (1fr, width))[#place(dx: dx, dy: dy, emoji)][== #body]
 }
 
+#let image-heading(dx: 0pt, dy: 0pt, body-width: 5fr, image-width: 25pt, image-scale-x: 100%, url, body) = {
+  let img = scale(x: image-scale-x)[#image(url, width: image-width)]
+  grid(columns: (1fr, body-width))[#move(dx: dx, dy: dy, img)][#body]
+}
+
 #let set-page(bleed: 0mm, safe: 0mm, height: none, width: none, body) = {
   set page(
     margin: (safe + bleed),
