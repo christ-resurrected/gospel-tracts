@@ -1,4 +1,4 @@
-#import "lib/page.typ": h1-dove, h1-emoji, set-page, set-style
+#import "lib/page.typ": h1-dove, twin-emoji-heading, set-page, set-style
 #import "lib/qr.typ": qr-footer
 #import "lib/theme.typ": cmyk-red, set-theme
 #import "lib/scripture.typ": see, seeAlso, verse
@@ -11,7 +11,7 @@
 // #show: page-theme.with(id: "dark") - BUG #420: this overrides show<refs> in #show page-theme.with(id: "light")
 #set-theme("dark")[
   #show heading.where(level: 1): align.with(center)
-  #h1-emoji(skull.bones + fire)[WARNING! DANGER!] #v(2mm)
+  #twin-emoji-heading(skull.bones + fire)[WARNING! DANGER!] #v(2mm)
   Our Lord Jesus Christ and His apostles explicitly warn us of the coming eternal judgement and the danger of living in sin:
 
   #verse[Mark 9:43-44 NKJV][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
