@@ -1,9 +1,3 @@
-#let h1-dove(dx: 0pt, dy: -4pt, width: 6fr, body) = {
-  let dove = scale(x: -100%)[#image("/asset/dove-of-peace.svg", width: 39pt)]
-  grid(columns: (1fr, width))[#move(dx: dx, dy: dy, dove)][= #body]
-  v(-2mm)
-}
-
 #let h1-emoji(x: 0pt, dy: -7pt, size: 20pt, emoji, body) = {
   // workaround noto-emoji position bugs -- see typst issue #5242
   show emoji: text.with(size: size)
@@ -18,9 +12,9 @@
   grid(columns: (1fr, width))[#place(dx: dx, dy: dy, emoji)][== #body]
 }
 
-#let image-heading(dx: 0pt, dy: 0pt, body-width: 5fr, image-width: 25pt, image-scale-x: 100%, url, body) = {
-  let img = scale(x: image-scale-x)[#image(url, width: image-width)]
-  grid(columns: (1fr, body-width))[#move(dx: dx, dy: dy, img)][#body]
+#let image-heading(dx: 0pt, dy: 0pt, hd-w: 5fr, img-w: 25pt, img-x: +1, img-name, heading) = {
+  let img = scale(x: img-x * 100%)[#image("/asset/" + img-name + ".svg", width: img-w)]
+  grid(columns: (1fr, hd-w))[#move(dx: dx, dy: dy, img)][#heading]
 }
 
 #let set-page(bleed: 0mm, safe: 0mm, height: none, width: none, body) = {

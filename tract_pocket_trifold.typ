@@ -84,7 +84,8 @@
 )
 
 #trifold-interior(
-  [ #h1-dove(width: 3fr)[THE GOSPEL OF \ JESUS CHRIST]
+  [
+    #image-heading("dove", dy: -4pt, hd-w: 3fr, img-w: 39pt, img-x: -1)[= THE GOSPEL OF \ JESUS CHRIST] #v(-2mm)
     #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]<jesus>*]
 
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
@@ -102,7 +103,7 @@
     All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from captivity to sin and receive the Holy Spirit, empowered for a supernatural life. This is a gift of God’s grace, but not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
     #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Tit.2:11-14; Jude 1:4]
   ],
-  [ #image-heading("/asset/question-mark.svg")[== HOW MUST WE RESPOND \ TO THIS GOOD NEWS?] #v(-0.5mm)
+  [ #image-heading("question-mark")[== HOW MUST WE RESPOND \ TO THIS GOOD NEWS?] #v(-0.5mm)
     #verse[Acts 2:38][Then Peter said to them,\ *#quote[Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.]*] #seeAlso[Acts 3:19].
 
     Being a Christian means a *full surrender* of your whole life to Jesus as your Lord and King. If you are ready for that commitment, you must *repent* and be baptized in His name. Then you must learn to *obey* all He taught and commanded, take up your cross, and follow Him to the very end. God will help you if you are *willing* and *obedient*
