@@ -13,7 +13,7 @@
   show emoji: text.with(size: size)
   place(left, dx: x, dy: dy, scale(x: -100%, emoji))
   place(right, dx: -x, dy: dy, emoji)
-  [= #heading]
+  [#heading]
 }
 
 #let set-page(bleed: 0mm, safe: 0mm, height: none, width: none, body) = {

@@ -53,7 +53,7 @@
 }
 
 #trifold-exterior(
-  [ #twin-emoji-heading(fire)[DANGER!]
+  [ #twin-emoji-heading(fire)[= DANGER!]
     Jesus says #verse[Mark 9:43-44][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
 
     #verse[Mark 7:21-22][#quote[For from within, out of the heart of men, proceed *evil thoughts*, *adulteries*, *fornications*, *murders*, *thefts*, *covetousness*, *wickedness*, *deceit*, *lewdness*, an *evil eye*, *blasphemy*, *pride*, *foolishness*.]]
@@ -61,7 +61,7 @@
 
     #verse[Matthew 10:28][#quote[And do not fear those who kill the body but cannot kill the soul. But rather fear Him who is able to destroy both soul and body in hell.]]
   ],
-  [ #twin-emoji-heading(skull.bones)[WARNING!]
+  [ #twin-emoji-heading(skull.bones)[= WARNING!]
     The apostle Paul warns:
     #verse[Galatians 5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
 
@@ -70,7 +70,7 @@
     #verse[Col. 3:6][Because of these things the wrath of God is coming upon the sons of disobedience]
     #seeAlso[Mat. 22:13; Acts 3:23; 2-Cor.5:10-11; 2-Thes.1:7-10].
   ],
-  [ #twin-emoji-heading(megaphone)[ALERT!]
+  [ #twin-emoji-heading(megaphone)[= ALERT!]
     == JESUS WILL RETURN TO JUDGE THE WORLD IN RIGHTEOUSNESS #v(1mm)
     Jesus will come back to give to us all according to what we did. Those who follow Jesus and do the will of His Father will be\ welcomed into His eternal kingdom. But those who continue to do evil will face God’s punishment.\
     #see[Acts 17:31; Mat.25:41,46]
