@@ -8,11 +8,11 @@
   grid(columns: (1fr, hd-w))[#move(dx: dx, dy: dy, img)][#heading]
 }
 
-#let twin-emoji-heading(x: 0pt, dy: -7pt, size: 20pt, emoji, heading) = {
+#let twin-emoji-heading(dx: 0pt, dy: -7pt, size: 20pt, emoji, heading) = {
   // workaround noto-emoji position bugs -- see typst issue #5242
   show emoji: text.with(size: size)
-  place(left, dx: x, dy: dy, scale(x: -100%, emoji))
-  place(right, dx: -x, dy: dy, emoji)
+  place(left, dx: dx, dy: dy, scale(x: -100%, emoji))
+  place(right, dx: -dx, dy: dy, emoji)
   [#heading]
 }
 
