@@ -26,7 +26,14 @@
 
 #set-theme("light")[
   #show heading: par.with(leading: 0.5em)
-  #image-heading("dove", dx: -4pt, hd-w: 5.5fr, img-w: 39pt, img-x: -1)[= REPENT, FOR THE KINGDOM OF HEAVEN IS AT HAND!]
+  #image-heading(
+    "dove",
+    dx: -4pt,
+    dy: -2pt,
+    hd-w: 5.5fr,
+    img-w: 39pt,
+    img-x: -1,
+  )[= REPENT, FOR THE KINGDOM OF HEAVEN IS AT HAND!]
   #v(-2mm) Jesus came to free us from sin, to open our eyes and turn us from darkness to light, and from the power of Satan to God #see[Acts 26:18], to transform us into people who *love* God and *practice righteousness*.
 
   Just as Jesus humbled Himself in *obedience* even to the point of death on a cross, was buried, and rose on the third day, we must also follow His example and take up our own cross, humble ourselves and turn away from our sins in true *repentance*, bury the old life of sin in baptism, and be raised to a new life by receiving the Holy Spirit #see[John 3:3-7; Acts 2:38, 3:19, 5:32, 8:15-17].
