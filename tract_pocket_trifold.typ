@@ -57,7 +57,7 @@
     Jesus says #verse[Mark 9:43-44][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
 
     #verse[Mark 7:21-22][#quote[For from within, out of the heart of men, proceed *evil thoughts*, *adulteries*, *fornications*, *murders*, *thefts*, *covetousness*, *wickedness*, *deceit*, *lewdness*, an *evil eye*, *blasphemy*, *pride*, *foolishness*.]]
-    #seeAlso[Mat. 5:27-30, 7:21-23, 13:40-42,47-50, 24:50-51; Luke 13:1-5, 16:22-24; John 5:26-29, 12:31, 15:6].
+    #seeAlso[Mat.5:27-30, 7:21-23, 13:40-42,47-50, 24:50-51; Luke 13:1-5, 16:22-24; John 5:26-29, 12:31, 15:6].
 
     #verse[Matthew 10:28][#quote[And do not fear those who kill the body but cannot kill the soul. But rather fear Him who is able to destroy both soul and body in hell.]]
   ],
@@ -65,10 +65,10 @@
     The apostle Paul warns:
     #verse[Galatians 5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
 
-    #verse[1-Corinthians 6:10][nor *thieves*, nor *covetous*, nor *drunkards*, nor *revilers*, nor *extortioners* will inherit the kingdom of God.] #seeAlso[verse 9; Rom. 1:18, 1:28-32, 2:3-9; Eph.5:5-6; Col.3:5-9; 1-Tim.6:9-10; 2-Tim.3:1-5].
+    #verse[1-Corinthians 6:10][nor *thieves*, nor *covetous*, nor *drunkards*, nor *revilers*, nor *extortioners* will inherit the kingdom of God.] #seeAlso[verse 9; Rom.1:18, 1:28-32, 2:3-9; Eph.5:5-6; Col.3:5-9; 1-Tim.6:9-10; 2-Tim.3:1-5].
 
     #verse[Col. 3:6][Because of these things the wrath of God is coming upon the sons of disobedience]
-    #seeAlso[Mat. 22:13; Acts 3:23; 2-Cor.5:10-11; 2-Thes.1:7-10].
+    #seeAlso[Mat.22:13; Acts 3:23; 2-Cor.5:10-11; 2-Thes.1:7-10].
   ],
   [ #twin-emoji-heading(megaphone)[= ALERT!]
     == JESUS WILL RETURN TO JUDGE THE WORLD IN RIGHTEOUSNESS #v(1mm)
@@ -76,10 +76,10 @@
     #see[Acts 17:31; Mat.25:41,46]
 
     #verse[Hebrews 9:27 NKJV][And as it is appointed for men to die once, but after this the judgement]
-    #seeAlso[Heb. 4:13, 10:26-31]
+    #seeAlso[Heb.4:13, 10:26-31]
 
     #verse[Revelation 21:8][#quote[But the *cowardly*, *unbelieving*, *abominable*, *murderers*, *sexually immoral*, *sorcerers*, *idolaters*, and all *liars* shall have their part in the lake which burns with fire and brimstone, which is the second death.]]
-    #seeAlso[Rev. 14:10-11, 20:10-15, 22:15; 2-Peter 3:7,10-12; Jude 1:6-7, 13; Mal.4:1; Isaiah 33:14].
+    #seeAlso[Rev.14:10-11, 20:10-15, 22:15; 2-Peter 3:7,10-12; Jude 1:6-7, 13; Mal.4:1; Isaiah 33:14].
   ],
 )
 
@@ -89,7 +89,7 @@
     #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]<jesus>*]
 
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
-    #see[Mat. 24:14; Mark 1:14-15, 9:47; Luke 4:43; John 3:3-5]
+    #see[Mat.24:14; Mark 1:14-15, 9:47; Luke 4:43; John 3:3-5]
 
     #emoji-heading(dx: -1mm, dy: -2mm, hd-w: 6fr, faith.christ)[== JESUS DIED AND ROSE FROM THE GRAVE]
     #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God.
@@ -107,7 +107,7 @@
     #verse[Acts 2:38][Then Peter said to them,\ *#quote[Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.]*] #seeAlso[Acts 3:19].
 
     Being a Christian means a *full surrender* of your whole life to Jesus as your Lord and King. If you are ready for that commitment, you must *repent* and be baptized in His name. Then you must learn to *obey* all He taught and commanded, take up your cross, and follow Him to the very end. God will help you if you are *willing* and *obedient*
-    #see[Mat. 10:37-39, 24:13; Luke 9:23-25, 14:26-33; John 14:21, 15:1-10; Acts 14:22; Php. 3:12-14; 2-Peter 1:3-11; 1-John 2:3-6, 3:3-10].
+    #see[Mat.10:37-39, 24:13; Luke 9:23-25, 14:26-33; John 14:21, 15:1-10; Acts 14:22; Php.3:12-14; 2-Peter 1:3-11; 1-John 2:3-6, 3:3-10].
 
     #qr-footer(size: 10mm, text-col-width: 50%)
   ],
