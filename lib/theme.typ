@@ -15,7 +15,7 @@
     verse-extent: 0mm, // typst bug #2939 manifests if > 0
     verse-jesus: cmyk-red,
     verse-hl: cmyk-red, // cmyk(00%, 95%, 95%, 63%),
-    verse-strong: cmyk(00%, 40%, 80%, 00%),
+    verse-strong: cmyk(00%, 00%, 100%, 00%),
   ),
   light: (
     bg: cmyk-white,
