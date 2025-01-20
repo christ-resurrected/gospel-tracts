@@ -21,6 +21,17 @@ Inspired by Thomas Albin Holmes' [Poland Gospel Tract](https://docs.google.com/d
 
 This tract folds into a compact 72mm x 140mm.
 
+For printing in the UK I recommend [Mixam Leaflets & Flyers](https://mixam.co.uk/flyers) with the following options:
+
+- Orientation: landscape
+- Size: Custom 216 mm x 140 mm
+- Colours (Front): Colour
+- Colours (Back): Colour
+- Paper Type: Gloss
+- Paper Weight: 170gsm
+- Lamination (Front): None
+- Lamination (Back): None
+
 ## Build requirements
 
 - [Typst](https://typst.app)
