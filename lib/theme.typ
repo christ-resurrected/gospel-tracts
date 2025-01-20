@@ -12,7 +12,7 @@
     ref-hl: cmyk(99%, 00%, 00%, 80%),
     strong: cmyk-white,
     verse: cmyk(00%, 00%, 10%, 00%),
-    verse-extent: 0mm, // typst bug #2939 manifests if > 0
+    verse-extent: 0.1mm, // typst bug #2939 manifests if > 0
     verse-jesus: cmyk-red,
     verse-hl: cmyk-red, // cmyk(00%, 95%, 95%, 63%),
     verse-strong: cmyk(00%, 00%, 100%, 00%),
