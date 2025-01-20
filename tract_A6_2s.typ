@@ -41,5 +41,5 @@
   With our sins forgiven, we enter into a supernatural relationship with God, walking humbly with Him and *keeping* His commandments to the very end #see[Matthew 24:13; Gal.2:20, 5:22-25; Titus 2:11-14; Heb.5:9].
   This is eternal life #see[John 17:3].
 
-  #qr-footer(text-col-width: 70%)
+  #qr-footer(padding-bottom: 10pt, text-col-width: 70%)
 ]

@@ -113,6 +113,6 @@
     Being a Christian means a *full surrender* of your whole life to Jesus as your Lord and King. If you are ready for that commitment, you must *repent* and be baptized in His name. Then you must learn to *obey* all He taught and commanded, take up your cross, and follow Him to the very end. God will help you if you are *willing* and *obedient*
     #see[Mat.10:37-39, 24:13; Luke 9:23-25, 14:26-33; John 14:21, 15:1-10; Acts 14:22; Php.3:12-14; 2-Peter 1:3-11; 1-John 2:3-6, 3:3-10].
 
-    #qr-footer(size: 10mm, text-col-width: 50%)
+    #qr-footer(padding-bottom: 3pt, size: 10mm, text-col-width: 50%)
   ],
 )
