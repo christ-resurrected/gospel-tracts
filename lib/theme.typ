@@ -27,7 +27,7 @@
     verse: cmyk-black,
     verse-extent: 1mm,
     verse-jesus: cmyk-red,
-    verse-hl: cmyk(00%, 00%, 00%, 15%),
+    verse-hl: cmyk(00%, 03%, 09%, 01%),
     verse-strong: cmyk(90%, 00%, 00%, 50%),
   ),
 )
