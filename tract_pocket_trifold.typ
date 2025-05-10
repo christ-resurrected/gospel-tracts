@@ -4,10 +4,16 @@
 #import "lib/theme.typ": set-theme
 #import emoji: faith, fire, megaphone, quest, seedling, skull
 
-#let flap-width = 71mm
-#let roll-fold-extra-width = 1.25mm // so flap can fold inside 'roll fold' aka 'C-fold' (NOT 'Z-fold')
+// for MIXAM custom size 216 mm x 140 mm
+// #let flap-width = 71mm
+// #let roll-fold-extra-width = 1.25mm // so flap can fold inside 'roll fold' aka 'C-fold' (NOT 'Z-fold')
+
+// for INSTANTPRINT Third A5 Portrait C-fold
+#let flap-width = 68mm
+#let roll-fold-extra-width = 2mm
+
 #let back-width = flap-width + roll-fold-extra-width
-#let front-width = back-width
+#let front-width = back-width + roll-fold-extra-width
 #let (bleed, safe) = (3mm, 3mm)
 
 #set text(overhang: false)
@@ -40,14 +46,14 @@
   )
 }
 
-#let trifold-interior(front-back, flap) = {
+#let trifold-interior(front, back, flap) = {
   show heading.where(level: 1): text.with(17pt)
   show: set-theme.with("light")
   vline-separator(front-width)
   vline-separator(front-width + back-width)
   grid(
-    columns: (front-width + back-width, flap-width),
-    panel(columns(2, gutter: safe + safe, front-back)), panel(flap),
+    columns: (front-width, back-width, flap-width),
+    panel(front), panel(back), panel(flap),
   )
 }
 
@@ -57,19 +63,22 @@
     Jesus says #verse[Mark 9:43-44][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
 
     #verse[Mark 7:21-22][#quote[For from within, out of the heart of men, proceed *evil thoughts*, *adulteries*, *fornications*, *murders*, *thefts*, *covetousness*, *wickedness*, *deceit*, *lewdness*, an *evil eye*, *blasphemy*, *pride*, *foolishness*.]]
-    #seeAlso[Mat.5:27-30, 7:21-23, 13:40-42,47-50, 24:50-51; Luke 13:1-5, 16:22-24; John 5:26-29, 12:31, 15:6].
+    // Luke 13:1-5, John 5:26-29, 12:31, 15:6].
 
-    #verse[Matthew 10:28][#quote[And do not fear those who kill the body but cannot kill the soul. But rather fear Him who is able to destroy both soul and body in hell.]]
+    #verse[Mat.10:28][#quote[And do not fear those who kill the body but cannot kill the soul. But rather fear Him who is able to destroy both soul and body in hell.]]
+    #seeAlso[Mat.5:27-30, 7:21-23, 13:40-42,47-50, 24:50-51]
   ],
   [
     #twin-emoji-heading(skull.bones)[= WARNING!]
     The apostle Paul warns:
-    #verse[Galatians 5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
+    #verse[Gal.5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
+    #seeAlso[Eph.5:5,6;Col.3:5-9].
 
-    #verse[1-Corinthians 6:10][nor *thieves*, nor *covetous*, nor *drunkards*, nor *revilers*, nor *extortioners* will inherit the kingdom of God.] #seeAlso[verse 9; Rom.1:18, 1:28-32, 2:3-9; Eph.5:5-6; Col.3:5-9; 1-Tim.6:9-10; 2-Tim.3:1-5].
+    #verse[1-Cor.6:10][nor *thieves*, nor *covetous*, nor *drunkards*, nor *revilers*, nor *extortioners* will inherit the kingdom of God.]
+    #seeAlso[vs 9; Rom.1:18-32, 2:3-9; 1-Tim.6:9-10; 2-Tim.3:1-5].
 
     #verse[Col. 3:6][Because of these things the wrath of God is coming upon the sons of disobedience]
-    #seeAlso[Mat.22:13; Acts 3:23; 2-Cor.5:10-11; 2-Thes.1:7-10].
+    #seeAlso[Mat.22:13; Luke 16:22-24; Acts 3:23; 2-Thes.1:7-10].
   ],
   [
     #twin-emoji-heading(megaphone)[= ALERT!]
@@ -95,7 +104,11 @@
 
     #emoji-heading(dx: -1mm, dy: -2mm, hd-w: 6fr, level: 2, faith.christ)[JESUS DIED AND ROSE FROM THE GRAVE]
     #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God.
-    Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to free us from our selfish ways.
+    Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to free us
+    from our
+  ],
+  [
+    selfish ways.
     This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
     #see[Matthew 12:39-40; Mrk.10:45, 12:29-31; John 12:32; Acts 26:18]
 
