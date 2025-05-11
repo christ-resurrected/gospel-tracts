@@ -85,7 +85,7 @@
     #seeAlso[vs 9; Rom.1:18-32, 2:3-9; 1-Tim.6:9-10; 2-Tim.3:1-5].
 
     #verse[Col. 3:6][Because of these things the wrath of God is coming upon the sons of disobedience]
-    #seeAlso[Mat.22:13, Luke 13:1-5, 16:22-24; Acts 3:23; Eph.5:5,6; Col.3:5-9; 2-Thes.1:7-10].
+    #seeAlso[Mat.22:13, Luke 13:1-5, 16:22-24; Acts 3:23; Eph.5:5-6; Col.3:5-9; 2-Thes.1:7-10].
   ],
   [
     #twin-emoji-heading(megaphone)[= ALERT!]
