@@ -13,7 +13,7 @@
 
 #set box(height: final-height, inset: safe) // each of the 6 panels has its own safe area
 #show: set-page.with(bleed: bleed, safe: 0mm, height: print-height, width: front-width + back-width + flap-width)
-#show: set-style.with(text-size: 10pt)
+#show: set-style.with(text-size: 9.9pt)
 #set text(overhang: false)
 
 // guide line for manual trim
@@ -21,7 +21,7 @@
   place(
     line(
       length: 100%,
-      start: (0mm, final-height + 1mm),
+      start: (0mm, final-height),
       stroke: (paint: cmyk(0%, 0%, 0%, 70%), dash: "loosely-dotted"),
     ),
   )
@@ -31,8 +31,8 @@
   place(
     line(
       angle: 90deg,
-      length: final-height,
-      start: (x, 0mm),
+      length: final-height - 2 * safe,
+      start: (x, safe),
       stroke: (paint: cmyk(0%, 0%, 0%, 70%), dash: "loosely-dotted"),
     ),
   )
