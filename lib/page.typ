@@ -2,7 +2,7 @@
   show emoji: text.with(size: size)
   grid(
     columns: (1fr, hd-w),
-    place(dx: dx, dy: dy, emoji), heading(level: level, par(leading: 0.5em, body)),
+    place(dx: dx, dy: dy, emoji), heading(level: level, par(justify: false, leading: 0.5em, body)),
   )
 }
 
