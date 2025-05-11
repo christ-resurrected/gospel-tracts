@@ -3,7 +3,7 @@
 #import "lib/theme.typ": cmyk-red, set-theme
 #import "lib/scripture.typ": see, seeAlso, verse
 
-#show: set-page.with(bleed: 3mm, safe: 4mm, height: 148.5mm, width: 105mm)
+#show: set-page.with(height: 148mm, width: 105mm)
 #show: set-style.with(text-size: 11pt)
 #show heading.where(level: 1): text.with(17pt)
 

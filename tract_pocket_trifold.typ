@@ -4,15 +4,15 @@
 #import "lib/theme.typ": set-theme
 
 // INSTANTPRINT "Third A5 Portrait C-fold"
-#let (bleed, safe) = (3mm, 3mm)
 #let flap-width = 68mm
 #let back-width = 70mm
 #let front-width = 72mm
 #let final-height = 140mm // height of finished tract after trimming, for better form factor
 #let print-height = 148mm // printed height of tract before manual trim
+#let safe = 3mm
 
 #set box(height: final-height, inset: safe) // each of the 6 panels has its own safe area
-#show: set-page.with(bleed: bleed, safe: 0mm, height: print-height, width: front-width + back-width + flap-width)
+#show: set-page.with(safe: 0mm, height: print-height, width: front-width + back-width + flap-width)
 #show: set-style.with(text-size: 9.9pt)
 #set text(overhang: false)
 

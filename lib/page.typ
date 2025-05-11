@@ -15,7 +15,7 @@
   heading(body)
 }
 
-#let set-page(bleed: 0mm, safe: 0mm, height: none, width: none, body) = {
+#let set-page(bleed: 3mm, safe: 3mm, height: none, width: none, body) = {
   set page(
     margin: (safe + bleed),
     height: (height + 2 * bleed),
