@@ -12,7 +12,7 @@
 #let final-height = 140mm // height of finished tract after trimming, for better form factor
 #let print-height = 148mm // printed height of tract before manual trim
 
-#set box(inset: safe) // each of the 6 panels has its own safe area
+#set box(height: final-height, inset: safe) // each of the 6 panels has its own safe area
 #show: set-page.with(bleed: bleed, safe: 0mm, height: print-height, width: front-width + back-width + flap-width)
 #show: set-style.with(text-size: 10pt)
 #set text(overhang: false)
@@ -127,7 +127,7 @@
     #verse[Acts 2:38][Then Peter said to them,\ *#quote[Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.]*] #seeAlso[Acts 3:19].
 
     Being a Christian means a *full surrender* of your whole life to Jesus as your Lord and King. If you are ready for that commitment, you must *repent* and be baptized in His name. Then you must learn to *obey* all He taught and commanded, take up your cross, and follow Him to the very end. God will help you if you are *willing* and *obedient*
-    #see[Mat.10:37-39, 24:13; Luke 9:23-25, 14:26-33; John 14:21, 15:1-10; Acts 14:22; Php.3:12-14; 2-Peter 1:3-11; 1-John 2:3-6, 3:3-10].
+    #see[Mat.10:37-39; Luke 9:23-25, 14:26-33; John 14:21, 15:1-10; Php.3:12-14; 1-John 3:3-10].
 
     #qr-footer(padding-bottom: 3pt, size: 10mm, text-col-width: 50%)
   ],
