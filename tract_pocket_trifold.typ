@@ -110,7 +110,7 @@
     #see[Mat.24:14; Mark 1:14-15, 9:47; Luke 4:43; John 3:3-5]
 
     #emoji-heading(dx: -1mm, dy: -2mm, hd-w: 6fr, level: 2, faith.christ)[JESUS DIED AND ROSE FROM THE GRAVE]
-    #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God. Jesus gave His life as a ransom, to open our eyes, to turn us back to God and free us from our
+    #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus' words are true. Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to set us free from our
   ],
   [
     selfish ways. This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
