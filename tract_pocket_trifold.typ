@@ -110,13 +110,13 @@
     #see[Mat.24:14; Mark 1:14-15, 9:47; Luke 4:43; John 3:3-5]
 
     #emoji-heading(dx: -1mm, dy: -2mm, hd-w: 6fr, level: 2, faith.christ)[JESUS DIED AND ROSE FROM THE GRAVE]
-    #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God. Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to free us from our
+    #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God. Jesus gave His life as a ransom, to open our eyes, to turn us back to God and free us from our
   ],
   [
     selfish ways. This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
     #see[Mat.12:39-40; Mk. 12:29-31; John 12:32; Acts 26:18]
 
-    #emoji-heading(dx: -0mm, dy: -2mm, size: 25pt, level: 2, seedling)[ETERNAL LIFE OFFERED TO ALL WHO SUBMIT]
+    #emoji-heading(dx: -0mm, dy: -2mm, size: 25pt, level: 2, seedling)[FORGIVENESS AND ETERNAL LIFE OFFERED]
     #verse[John 14:6][Jesus said to him, *#quote[I am the way, the truth, and the life. No one comes to the Father except through Me.]<jesus>*]
 
     All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from sin's captivity and receive the Holy Spirit, empowered for a supernatural life. This is a gift of God’s grace, but not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
