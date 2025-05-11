@@ -66,7 +66,7 @@
 
 #trifold-exterior(
   [
-    #twin-emoji-heading(fire)[= DANGER!]
+    #svg-heading-x2("fire")[DANGER!]
     Jesus says #verse[Mk.9:43-44][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
     #seeAlso[Mat.5:29]
 
@@ -77,7 +77,7 @@
     #seeAlso[Mat.5:27-30, 7:21-23, 13:40-42,47-50, 24:50-51]
   ],
   [
-    #twin-emoji-heading(skull.bones)[= WARNING!]
+    #svg-heading-x2("skull_bones")[WARNING!]
     The apostle Paul warns:
     #verse[Gal.5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
 
@@ -88,7 +88,7 @@
     #seeAlso[Mat.22:13, Luke 13:1-5, 16:22-24; Acts 3:23; Eph.5:5-6; Col.3:5-9; 2-Thes.1:7-10].
   ],
   [
-    #twin-emoji-heading(megaphone)[= ALERT!]
+    #svg-heading-x2("megaphone")[ALERT!]
     == JESUS WILL RETURN TO JUDGE THE WORLD IN RIGHTEOUSNESS #v(1mm)
     Jesus will come back to give to us all according to what we did. Those who follow Jesus and do the will of His Father will be\ welcomed into His eternal kingdom. But those who continue to do evil will face God’s punishment.\
     #see[Acts 17:31; Mat.25:41,46]
@@ -103,27 +103,29 @@
 
 #trifold-interior(
   [
-    #svg-heading("dove", dy: -2pt, hd-w: 3fr, img-w: 39pt, img-x: -1, leading: 0.4em)[THE GOSPEL OF \ JESUS CHRIST] #v(-2mm)
+    #svg-heading("dove", dy: -2pt, hd-w: 3fr, img-w: 39pt, img-x: -1, leading: 0.4em)[THE GOSPEL OF \ JESUS CHRIST] #v(
+      -2mm,
+    )
     #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]<jesus>*]
 
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
     #see[Mat.24:14; Mark 1:14-15, 9:47; Luke 4:43; John 3:3-5]
 
-    #emoji-heading(dx: -1mm, dy: -2mm, hd-w: 6fr, level: 2, faith.christ)[JESUS DIED AND ROSE FROM THE GRAVE]
+    #svg-heading("cross", img-w: 17pt, level: 2)[JESUS DIED AND ROSE FROM THE GRAVE]
     #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus' words are true. Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to set us free from our
   ],
   [
     selfish ways. This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
     #see[Mat.12:39-40; Mk. 12:29-31; John 12:32; Acts 26:18]
 
-    #emoji-heading(dx: -0mm, dy: -2mm, size: 25pt, level: 2, seedling)[FORGIVENESS AND ETERNAL LIFE OFFERED]
+    #svg-heading("seedling", hd-w: 4fr, level: 2)[FORGIVENESS AND \ ETERNAL LIFE OFFERED]
     #verse[John 14:6][Jesus said to him, *#quote[I am the way, the truth, and the life. No one comes to the Father except through Me.]<jesus>*]
 
     All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from sin's captivity and receive the Holy Spirit, empowered for a supernatural life. This is a gift of God’s grace, but not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
     #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Titus 2:11-14]
   ],
   [
-    #svg-heading(level: 2, "question-mark")[HOW MUST WE RESPOND \ TO THIS GOOD NEWS?] #v(-0.5mm)
+    #svg-heading("question-mark", hd-w: 4fr, level: 2)[HOW MUST WE RESPOND \ TO THIS GOOD NEWS?] #v(-0.5mm)
     #verse[Acts 2:38][Then Peter said to them,\ *#quote[Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.]*]
     #seeAlso[Acts 3:19, 8:36-39, 22:16; Romans 6:3-7].
 

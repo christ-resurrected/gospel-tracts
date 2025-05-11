@@ -6,12 +6,19 @@
   )
 }
 
-#let svg-heading(dx: 0pt, dy: 0pt, hd-w: 5fr, img-w: 25pt, img-x: +1, leading:0.5em, level: 1, img-name, body) = {
+#let svg-heading(dx: 0pt, dy: 0pt, hd-w: 5fr, img-w: 25pt, img-x: +1, leading: 0.5em, level: 1, img-name, body) = {
   let img = scale(x: img-x * 100%)[#image("/asset/" + img-name + ".svg", width: img-w)]
   grid(
     columns: (1fr, hd-w),
     move(dx: dx, dy: dy, img), heading(level: level, par(leading: leading, body)),
   )
+}
+
+#let svg-heading-x2(dx: 3pt, dy: -3pt, size: 20pt, img-name, body) = {
+  let img = image("/asset/" + img-name + ".svg", width: size)
+  place(left, dx: dx, dy: dy, scale(x: -100%, img))
+  place(right, dx: -dx, dy: dy, img)
+  heading(body)
 }
 
 #let twin-emoji-heading(dx: 0pt, dy: -7pt, size: 20pt, emoji, body) = {
