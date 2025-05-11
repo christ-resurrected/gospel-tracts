@@ -4,33 +4,26 @@
 #import "lib/theme.typ": set-theme
 #import emoji: faith, fire, megaphone, quest, seedling, skull
 
-#let height = 140mm // actual height of tract after trimming
-
-// for MIXAM custom size 216 mm x 140 mm
-// #let flap-width = 71mm
-// #let roll-fold-extra-width = 1.25mm // so flap can fold inside 'roll fold' aka 'C-fold' (NOT 'Z-fold')
-// #let print-height = height
-
-// for INSTANTPRINT "Third A5 Portrait C-fold"
-#let flap-width = 68mm
-#let roll-fold-extra-width = 2mm
-#let print-height = 148mm
-
-#let back-width = flap-width + roll-fold-extra-width
-#let front-width = back-width + roll-fold-extra-width
+// INSTANTPRINT "Third A5 Portrait C-fold"
 #let (bleed, safe) = (3mm, 3mm)
+#let flap-width = 68mm
+#let back-width = 70mm
+#let front-width = 72mm
+#let final-height = 140mm // height of finished tract after trimming, for better form factor
+#let print-height = 148mm // printed height of tract before manual trim
 
-#set box(inset: safe) // let each of the 6 panels have its own safe area
+#set box(inset: safe) // each of the 6 panels has its own safe area
 #show: set-page.with(bleed: bleed, safe: 0mm, height: print-height, width: front-width + back-width + flap-width)
 #show: set-style.with(text-size: 10pt)
 #set text(overhang: false)
 
-#let hline-separator() = {
+// guide line for manual trim
+#let trim-guideline() = {
   place(
     line(
-      stroke: (paint: cmyk(0%, 0%, 0%, 70%), dash: "loosely-dotted"),
-      start: (0mm, height + 1mm),
       length: 100%,
+      start: (0mm, final-height + 1mm),
+      stroke: (paint: cmyk(0%, 0%, 0%, 70%), dash: "loosely-dotted"),
     ),
   )
 }
@@ -38,10 +31,10 @@
 #let vline-separator(x) = {
   place(
     line(
-      stroke: (paint: cmyk(0%, 0%, 0%, 70%), dash: "loosely-dotted"),
-      start: (x, 0mm),
       angle: 90deg,
-      length: height,
+      length: final-height,
+      start: (x, 0mm),
+      stroke: (paint: cmyk(0%, 0%, 0%, 70%), dash: "loosely-dotted"),
     ),
   )
 }
@@ -50,7 +43,7 @@
   show heading.where(level: 1): align.with(center)
   show heading.where(level: 1): text.with(19pt)
   show: set-theme.with("dark")
-  hline-separator()
+  trim-guideline()
   vline-separator(flap-width)
   vline-separator(flap-width + back-width)
   grid(
@@ -62,7 +55,7 @@
 #let trifold-interior(front, back, flap) = {
   show heading.where(level: 1): text.with(17pt)
   show: set-theme.with("light")
-  hline-separator()
+  trim-guideline()
   vline-separator(front-width)
   vline-separator(front-width + back-width)
   grid(
@@ -117,20 +110,17 @@
     #see[Mat.24:14; Mark 1:14-15, 9:47; Luke 4:43; John 3:3-5]
 
     #emoji-heading(dx: -1mm, dy: -2mm, hd-w: 6fr, level: 2, faith.christ)[JESUS DIED AND ROSE FROM THE GRAVE]
-    #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God.
-    Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to free us
-    from our self-
+    #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God. Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to free us from our
   ],
   [
-    ish ways.
-    This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
-    #see[Matthew 12:39-40; Mrk.10:45, 12:29-31; John 12:32; Acts 26:18]
+    selfish ways. This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
+    #see[Mat.12:39-40; Mk. 12:29-31; John 12:32; Acts 26:18]
 
-    #emoji-heading(dx: -0mm, dy: -2mm, size: 25pt, level: 2, seedling)[FORGIVENESS AND NEW LIFE OFFERED TO ALL]
+    #emoji-heading(dx: -0mm, dy: -2mm, size: 25pt, level: 2, seedling)[ETERNAL LIFE OFFERED TO ALL WHO SUBMIT]
     #verse[John 14:6][Jesus said to him, *#quote[I am the way, the truth, and the life. No one comes to the Father except through Me.]<jesus>*]
 
     All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from sin's captivity and receive the Holy Spirit, empowered for a supernatural life. This is a gift of God’s grace, but not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
-    #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Tit.2:11-14; Jude 1:4]
+    #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Tit.2:11-14]
   ],
   [
     #image-heading(level: 2, "question-mark")[HOW MUST WE RESPOND \ TO THIS GOOD NEWS?] #v(-0.5mm)
