@@ -103,7 +103,7 @@
 
 #trifold-interior(
   [
-    #image-heading("dove", dy: -2pt, hd-w: 3fr, img-w: 39pt, img-x: -1, leading: 0.4em)[THE GOSPEL OF \ JESUS CHRIST] #v(-2mm)
+    #svg-heading("dove", dy: -2pt, hd-w: 3fr, img-w: 39pt, img-x: -1, leading: 0.4em)[THE GOSPEL OF \ JESUS CHRIST] #v(-2mm)
     #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]<jesus>*]
 
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
@@ -123,7 +123,7 @@
     #see[Acts 5:32, 10:43, 13:38-39; Rom.11:22; 2-Cor.5:17, 6:1; Eph.2:8-10; Titus 2:11-14]
   ],
   [
-    #image-heading(level: 2, "question-mark")[HOW MUST WE RESPOND \ TO THIS GOOD NEWS?] #v(-0.5mm)
+    #svg-heading(level: 2, "question-mark")[HOW MUST WE RESPOND \ TO THIS GOOD NEWS?] #v(-0.5mm)
     #verse[Acts 2:38][Then Peter said to them,\ *#quote[Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.]*]
     #seeAlso[Acts 3:19, 8:36-39, 22:16; Romans 6:3-7].
 

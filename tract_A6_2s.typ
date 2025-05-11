@@ -25,7 +25,7 @@
 ]
 
 #set-theme("light")[
-  #image-heading(
+  #svg-heading(
     "dove",
     dx: -4pt,
     dy: -2pt,
