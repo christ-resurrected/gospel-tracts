@@ -3,12 +3,12 @@
 #import "lib/scripture.typ": see, seeAlso, verse
 #import "lib/theme.typ": set-theme
 
-// INSTANTPRINT "Third A5 Portrait C-fold"
+// INSTANTPRINT "Third A5 Portrait C-fold" = 210mm x 148mm
 #let flap-width = 68mm
 #let back-width = 70mm
 #let front-width = 72mm
 #let final-height = 140mm // height of finished tract after trimming, for better form factor
-#let print-height = 148mm // printed height of tract before manual trim
+#let print-height = 148mm // printed height of tract before manual trim = A5
 #let safe = 3mm
 
 #set box(height: final-height, inset: safe) // each of the 6 panels has its own safe area
