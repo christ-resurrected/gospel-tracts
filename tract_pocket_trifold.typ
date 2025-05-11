@@ -38,7 +38,7 @@
   )
 }
 
-#let trifold-exterior(flap, back, front) = {
+#let trifold-outside(flap, back, front) = {
   show heading.where(level: 1): align.with(center)
   show heading.where(level: 1): text.with(19pt)
   show: set-theme.with("dark")
@@ -51,7 +51,7 @@
   )
 }
 
-#let trifold-interior(front, back, flap) = {
+#let trifold-inside(front, back, flap) = {
   show heading.where(level: 1): text.with(17pt)
   show: set-theme.with("light")
   trim-guideline()
@@ -63,7 +63,7 @@
   )
 }
 
-#trifold-exterior(
+#trifold-outside(
   [
     #svg-heading-x2(("fire",))[DANGER!]
     Jesus says #verse[Mk.9:43-44][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
@@ -99,7 +99,7 @@
   ],
 )
 
-#trifold-interior(
+#trifold-inside(
   [
     #svg-heading("dove", dy: -2pt, hd-w: 3fr, img-w: 39pt, img-x: -1, leading: 0.4em)[THE GOSPEL OF \ JESUS CHRIST] #v(
       -2mm,
