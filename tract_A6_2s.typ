@@ -2,7 +2,6 @@
 #import "lib/qr.typ": qr-footer
 #import "lib/theme.typ": cmyk-red, set-theme
 #import "lib/scripture.typ": see, seeAlso, verse
-#import emoji: fire, skull
 
 #show: set-page.with(bleed: 3mm, safe: 4mm, height: 148.5mm, width: 105mm)
 #show: set-style.with(text-size: 11pt)
@@ -11,8 +10,9 @@
 // #show: page-theme.with(id: "dark") - BUG #420: this overrides show<refs> in #show page-theme.with(id: "light")
 #set-theme("dark")[
   #show heading.where(level: 1): align.with(center)
-  #twin-emoji-heading(skull.bones + fire, dx: -7pt)[WARNING! DANGER!] #v(2mm)
-  Our Lord Jesus Christ and His apostles explicitly warn us of the coming eternal judgement and the danger of living in sin:
+  #svg-heading-x2(("fire", "skull_bones"))[WARNING! DANGER!]
+
+  #v(2mm) Our Lord Jesus Christ and His apostles explicitly warn us of the coming eternal judgement and the danger of living in sin:
 
   #verse[Mark 9:43-44 NKJV][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
   #seeAlso[Mat.5:27-30, 13:47-50, 25:41-46; Luke 12:4-5, 16:22-24].

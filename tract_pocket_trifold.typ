@@ -2,7 +2,6 @@
 #import "lib/qr.typ": qr-footer
 #import "lib/scripture.typ": see, seeAlso, verse
 #import "lib/theme.typ": set-theme
-#import emoji: faith, fire, megaphone, quest, seedling, skull
 
 // INSTANTPRINT "Third A5 Portrait C-fold"
 #let (bleed, safe) = (3mm, 3mm)
@@ -66,7 +65,7 @@
 
 #trifold-exterior(
   [
-    #svg-heading-x2("fire")[DANGER!]
+    #svg-heading-x2(("fire",))[DANGER!]
     Jesus says #verse[Mk.9:43-44][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
     #seeAlso[Mat.5:29]
 
@@ -77,7 +76,7 @@
     #seeAlso[Mat.5:27-30, 7:21-23, 13:40-42,47-50, 24:50-51]
   ],
   [
-    #svg-heading-x2("skull_bones")[WARNING!]
+    #svg-heading-x2(("skull_bones",))[WARNING!]
     The apostle Paul warns:
     #verse[Gal.5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
 
@@ -88,7 +87,7 @@
     #seeAlso[Mat.22:13, Luke 13:1-5, 16:22-24; Acts 3:23; Eph.5:5-6; Col.3:5-9; 2-Thes.1:7-10].
   ],
   [
-    #svg-heading-x2("megaphone")[ALERT!]
+    #svg-heading-x2(("megaphone",))[ALERT!]
     == JESUS WILL RETURN TO JUDGE THE WORLD IN RIGHTEOUSNESS #v(1mm)
     Jesus will come back to give to us all according to what we did. Those who follow Jesus and do the will of His Father will be\ welcomed into His eternal kingdom. But those who continue to do evil will face God’s punishment.\
     #see[Acts 17:31; Mat.25:41,46]

@@ -35,7 +35,6 @@ For printing in the UK I recommend [Mixam Leaflets & Flyers](https://mixam.co.uk
 ## Build requirements
 
 - [Typst](https://typst.app)
-- [Noto Color Emoji](https://fonts.google.com/noto/specimen/Noto+Color+Emoji) font
 
 ## Attribution
 
