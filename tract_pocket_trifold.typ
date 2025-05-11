@@ -67,7 +67,8 @@
 #trifold-exterior(
   [
     #twin-emoji-heading(fire)[= DANGER!]
-    Jesus says #verse[Mark 9:43-44][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
+    Jesus says #verse[Mk.9:43-44][#quote[If your hand causes you to *sin*, cut it off. It is better for you to enter into life maimed, rather than having two hands, to go to hell, into the fire that shall never be quenched -- where #quote[_Their worm does not die And the fire is not quenched._]]]
+    #seeAlso[Mat.5:29]
 
     #verse[Mark 7:21-22][#quote[For from within, out of the heart of men, proceed *evil thoughts*, *adulteries*, *fornications*, *murders*, *thefts*, *covetousness*, *wickedness*, *deceit*, *lewdness*, an *evil eye*, *blasphemy*, *pride*, *foolishness*.]]
     // Luke 13:1-5, John 5:26-29, 12:31, 15:6].
@@ -79,13 +80,12 @@
     #twin-emoji-heading(skull.bones)[= WARNING!]
     The apostle Paul warns:
     #verse[Gal.5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
-    #seeAlso[Eph.5:5,6;Col.3:5-9].
 
     #verse[1-Cor.6:10][nor *thieves*, nor *covetous*, nor *drunkards*, nor *revilers*, nor *extortioners* will inherit the kingdom of God.]
     #seeAlso[vs 9; Rom.1:18-32, 2:3-9; 1-Tim.6:9-10; 2-Tim.3:1-5].
 
     #verse[Col. 3:6][Because of these things the wrath of God is coming upon the sons of disobedience]
-    #seeAlso[Mat.22:13; Luke 16:22-24; Acts 3:23; 2-Thes.1:7-10].
+    #seeAlso[Mat.22:13, Luke 13:1-5, 16:22-24; Acts 3:23; Eph.5:5,6; Col.3:5-9; 2-Thes.1:7-10].
   ],
   [
     #twin-emoji-heading(megaphone)[= ALERT!]
