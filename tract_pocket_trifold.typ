@@ -4,56 +4,70 @@
 #import "lib/theme.typ": set-theme
 #import emoji: faith, fire, megaphone, quest, seedling, skull
 
+#let height = 140mm // actual height of tract after trimming
+
 // for MIXAM custom size 216 mm x 140 mm
 // #let flap-width = 71mm
 // #let roll-fold-extra-width = 1.25mm // so flap can fold inside 'roll fold' aka 'C-fold' (NOT 'Z-fold')
+// #let print-height = height
 
-// for INSTANTPRINT Third A5 Portrait C-fold
+// for INSTANTPRINT "Third A5 Portrait C-fold"
 #let flap-width = 68mm
 #let roll-fold-extra-width = 2mm
+#let print-height = 148mm
 
 #let back-width = flap-width + roll-fold-extra-width
 #let front-width = back-width + roll-fold-extra-width
 #let (bleed, safe) = (3mm, 3mm)
 
-#set text(overhang: false)
-#show: set-page.with(bleed: bleed, height: 140mm, width: front-width + back-width + flap-width)
+#set box(inset: safe) // let each of the 6 panels have its own safe area
+#show: set-page.with(bleed: bleed, safe: 0mm, height: print-height, width: front-width + back-width + flap-width)
 #show: set-style.with(text-size: 10pt)
+#set text(overhang: false)
 
-#let vline-separator(x) = {
+#let hline-separator() = {
   place(
-    float: false,
     line(
       stroke: (paint: cmyk(0%, 0%, 0%, 70%), dash: "loosely-dotted"),
-      start: (x, safe),
-      angle: 90deg,
-      length: 100% - safe,
+      start: (0mm, height + 1mm),
+      length: 100%,
     ),
   )
 }
 
-#let panel = box.with(height: 100%, inset: safe)
+#let vline-separator(x) = {
+  place(
+    line(
+      stroke: (paint: cmyk(0%, 0%, 0%, 70%), dash: "loosely-dotted"),
+      start: (x, 0mm),
+      angle: 90deg,
+      length: height,
+    ),
+  )
+}
 
 #let trifold-exterior(flap, back, front) = {
   show heading.where(level: 1): align.with(center)
   show heading.where(level: 1): text.with(19pt)
   show: set-theme.with("dark")
+  hline-separator()
   vline-separator(flap-width)
   vline-separator(flap-width + back-width)
   grid(
     columns: (flap-width, back-width, front-width),
-    panel(flap), panel(back), panel(front),
+    box(flap), box(back), box(front),
   )
 }
 
 #let trifold-interior(front, back, flap) = {
   show heading.where(level: 1): text.with(17pt)
   show: set-theme.with("light")
+  hline-separator()
   vline-separator(front-width)
   vline-separator(front-width + back-width)
   grid(
     columns: (front-width, back-width, flap-width),
-    panel(front), panel(back), panel(flap),
+    box(front), box(back), box(flap),
   )
 }
 
@@ -105,10 +119,10 @@
     #emoji-heading(dx: -1mm, dy: -2mm, hd-w: 6fr, level: 2, faith.christ)[JESUS DIED AND ROSE FROM THE GRAVE]
     #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus is the Son of God.
     Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to free us
-    from our
+    from our self-
   ],
   [
-    selfish ways.
+    ish ways.
     This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
     #see[Matthew 12:39-40; Mrk.10:45, 12:29-31; John 12:32; Acts 26:18]
 
