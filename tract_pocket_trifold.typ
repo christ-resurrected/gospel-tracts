@@ -70,7 +70,6 @@
     #seeAlso[Mat.5:29]
 
     #verse[Mark 7:21-22][#quote[For from within, out of the heart of men, proceed *evil thoughts*, *adulteries*, *fornications*, *murders*, *thefts*, *covetousness*, *wickedness*, *deceit*, *lewdness*, an *evil eye*, *blasphemy*, *pride*, *foolishness*.]]
-    // Luke 13:1-5, John 5:26-29, 12:31, 15:6].
 
     #verse[Mat.10:28][#quote[And do not fear those who kill the body but cannot kill the soul. But rather fear Him who is able to destroy both soul and body in hell.]]
     #seeAlso[Mat.5:27-30, 7:21-23, 13:40-42,47-50, 24:50-51]
