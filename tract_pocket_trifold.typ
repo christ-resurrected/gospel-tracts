@@ -16,31 +16,14 @@
 #show: set-style.with(text-size: 9.9pt)
 #set text(overhang: false)
 
-// guide line for manual trim
-#let trim-guideline() = {
-  place(
-    line(
-      length: 100%,
-      start: (0mm, final-height),
-    ),
-  )
-}
-
-#let vline-separator(x) = {
-  place(
-    line(
-      angle: 90deg,
-      length: final-height - 2 * safe,
-      start: (x, safe),
-    ),
-  )
-}
+#let guide-line-for-manual-trim() = { place(line(length: 100%, start: (0mm, final-height))) }
+#let vline-separator(x) = { place(line(angle: 90deg, length: final-height - 2 * safe, start: (x, safe))) }
 
 #let trifold-outside(flap, back, front) = {
   show heading.where(level: 1): align.with(center)
   show heading.where(level: 1): text.with(19pt)
   show: set-theme.with("dark")
-  trim-guideline()
+  guide-line-for-manual-trim()
   vline-separator(flap-width)
   vline-separator(flap-width + back-width)
   grid(
@@ -52,7 +35,7 @@
 #let trifold-inside(front, back, flap) = {
   show heading.where(level: 1): text.with(17pt)
   show: set-theme.with("light")
-  trim-guideline()
+  guide-line-for-manual-trim()
   vline-separator(front-width)
   vline-separator(front-width + back-width)
   grid(
