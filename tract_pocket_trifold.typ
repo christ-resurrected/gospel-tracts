@@ -88,7 +88,7 @@
   [
     #svg-heading-x2(("megaphone",))[ALERT!]
     == JESUS WILL RETURN TO JUDGE THE WORLD IN RIGHTEOUSNESS #v(1mm)
-    Jesus will come back to give to us all according to what we did. Those who follow Jesus and do the will of His Father will be\ welcomed into His eternal kingdom. But those who continue to do evil will face God’s punishment.\
+    Jesus will come back to give to us all according to what we did. Those who follow Jesus and do the will of His Father will be welcomed into His eternal kingdom. But those who continue to do evil will face God’s punishment.\
     #see[Acts 17:31; Mat.25:41,46]
 
     #verse[Hebrews 9:27 NKJV][And as it is appointed for men to die once, but after this the judgement]
