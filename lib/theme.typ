@@ -7,7 +7,7 @@
   dark: (
     bg: cmyk-black,
     fg: cmyk-white,
-    guide-line: cmyk(0%, 0%, 0%, 70%),
+    guideline: cmyk(0%, 0%, 0%, 70%),
     h1: cmyk-red,
     ref: cmyk(30%, 00%, 00%, 00%),
     ref-hl: cmyk(99%, 00%, 00%, 80%),
@@ -21,7 +21,7 @@
   light: (
     bg: cmyk-white,
     fg: cmyk-black,
-    guide-line: cmyk(0%, 0%, 0%, 20%),
+    guideline: cmyk(0%, 0%, 0%, 20%),
     h1: cmyk-black,
     ref: cmyk(99%, 30%, 00%, 70%),
     ref-hl: cmyk(00%, 00%, 70%, 00%),
@@ -37,7 +37,7 @@
 #let set-theme(new-page: true, set-text: true, id, body) = {
   let theme = themes.at(id)
   let fire-text = it => strong(text(fill: cmyk-fire, stroke: 0.3pt + cmyk-white, it))
-  set line(stroke: (paint: theme.guide-line, dash: "dotted"))
+  set line(stroke: (paint: theme.guideline, dash: "dotted"))
   set page(fill: theme.bg) if new-page
   set text(fill: theme.fg) if set-text
   show <refs>: it => {
