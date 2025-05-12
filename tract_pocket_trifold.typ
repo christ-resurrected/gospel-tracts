@@ -22,7 +22,6 @@
     line(
       length: 100%,
       start: (0mm, final-height),
-      stroke: (paint: cmyk(0%, 0%, 0%, 60%), dash: "loosely-dotted"),
     ),
   )
 }
@@ -33,7 +32,6 @@
       angle: 90deg,
       length: final-height - 2 * safe,
       start: (x, safe),
-      stroke: (paint: cmyk(0%, 0%, 0%, 60%), dash: "dotted"),
     ),
   )
 }
