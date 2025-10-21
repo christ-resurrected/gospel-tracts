@@ -4,16 +4,25 @@
 #import "lib/theme.typ": set-theme
 
 // INSTANTPRINT "Third A5 Portrait C-fold" = 210mm x 148mm
-#let flap-width = 68mm
-#let back-width = 70mm
-#let front-width = 72mm
+// #let flap-width = 68mm
+// #let back-width = 70mm
+// #let front-width = 72mm
+// #let final-height = 140mm // height of finished tract after trimming, for better form factor
+// #let print-height = 148mm // printed height of tract before manual trim = A5
+// #let safe = 3mm
+
+// MIXAM "Custom size 216mm x 140mm"
+#let flap-width = 71mm
+#let roll-fold-extra-width = 1.25mm // so flap can fold inside 'roll fold' aka 'C-fold' (NOT 'Z-fold')
+#let back-width = flap-width + roll-fold-extra-width
+#let front-width = back-width
 #let final-height = 140mm // height of finished tract after trimming, for better form factor
-#let print-height = 148mm // printed height of tract before manual trim = A5
+#let print-height = final-height // printed height of tract before manual trim = A5
 #let safe = 3mm
 
-#set box(height: final-height, inset: safe) // each of the 6 panels has its own safe area
+#set box(height: final-height, inset: safe) // each of the 6 panels has its own safe area, therefore page safe = 0
 #show: set-page.with(safe: 0mm, height: print-height, width: front-width + back-width + flap-width)
-#show: set-style.with(text-size: 9.9pt)
+#show: set-style.with(text-size: 10pt)
 #set text(overhang: false)
 
 #let guideline-manual-trim() = { place(line(length: 100%, start: (0mm, final-height))) }
@@ -23,7 +32,7 @@
   show heading.where(level: 1): align.with(center)
   show heading.where(level: 1): text.with(19pt)
   show: set-theme.with("dark")
-  guideline-manual-trim()
+  // guideline-manual-trim()
   guideline-vsep(flap-width)
   guideline-vsep(flap-width + back-width)
   grid(
@@ -35,7 +44,7 @@
 #let trifold-inside(front, back, flap) = {
   show heading.where(level: 1): text.with(17pt)
   show: set-theme.with("light")
-  guideline-manual-trim()
+  // guideline-manual-trim()
   guideline-vsep(front-width)
   guideline-vsep(front-width + back-width)
   grid(
