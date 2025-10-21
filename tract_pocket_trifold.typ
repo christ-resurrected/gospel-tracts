@@ -91,9 +91,14 @@
 
 #trifold-inside(
   [
-    #svg-heading("dove", dy: -2pt, hd-w: 3fr, img-w: 39pt, img-x: -1, leading: 0.4em)[THE GOSPEL OF \ JESUS CHRIST] #v(
-      -2mm,
-    )
+    #svg-heading(
+      "dove",
+      dy: -2pt,
+      hd-w: 3fr,
+      img-w: 39pt,
+      img-scale-x: -1,
+      leading: 0.4em,
+    )[THE GOSPEL OF \ JESUS CHRIST] #v(-2mm)
     #verse[Matthew 4:17][From that time Jesus began to preach and to say, *#quote[Repent, for the kingdom of heaven is at hand.]<jesus>*]
 
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
@@ -106,7 +111,7 @@
     selfish ways. This He suffered, hoping we would listen to Him and be changed into righteous people who *love* God and *do* His will.
     #see[Mat.12:39-40; Mk. 12:29-31; John 12:32; Acts 26:18]
 
-    #svg-heading("seedling", hd-w: 4fr, level: 2)[FORGIVENESS AND \ ETERNAL LIFE OFFERED]
+    #svg-heading("seedling", hd-w: 4fr, img-scale-y: 1.1, level: 2)[FORGIVENESS AND \ ETERNAL LIFE OFFERED]
     #verse[John 14:6][Jesus said to him, *#quote[I am the way, the truth, and the life. No one comes to the Father except through Me.]<jesus>*]
 
     All who trust Jesus and *humbly submit* to His authority are forgiven by God. They are released from sin's captivity and receive the Holy Spirit, empowered for a supernatural life. This is a gift of God’s grace, but not something we can abuse. Scripture urges Christians to remain in the grace of God and warns them not to receive it in vain.
