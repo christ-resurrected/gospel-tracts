@@ -12,7 +12,7 @@ For printing in the UK I recommend [Mixam Leaflets & Flyers](https://mixam.co.uk
 - Colours (Back): Colour
 - Paper Type: Gloss
 - Paper Weight: 300gsm
-- Lamination (Front): Gloss Lamination
+- Lamination (Front): Matt or Gloss
 - Lamination (Back): Same As Front
 
 ## [tract_pocket_trifold.pdf](pdf/tract_pocket_trifold.pdf)
