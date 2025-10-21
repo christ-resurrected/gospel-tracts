@@ -1,4 +1,4 @@
-#import "@preview/cades:0.3.0": qr-code
+#import "@preview/rustycure:0.1.0": qr-code
 
 #let qr-footer(size: 11mm, padding-bottom: 0pt, text-col-width: 100%) = {
   let domain = "me2Christ.com"
@@ -11,7 +11,7 @@
     )[
       #pad(bottom: padding-bottom)[Please visit *#text(black)[#domain]*]
     ][
-      #qr-code("https://" + domain, width: qr-size)
+      #qr-code("https://" + domain, quiet-zone: false)
     ],
   )
 }
