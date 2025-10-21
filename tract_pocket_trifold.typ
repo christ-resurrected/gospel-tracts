@@ -104,7 +104,7 @@
     The kingdom of God was opened to us when Jesus came. He is King of kings and Lord of lords, the Son of God, the Saviour, and the One who will judge the world. Jesus is the One we must *obey* if we want to be a part of the eternal kingdom we were created for.
     #see[Mat.24:14; Mark 1:14-15, 9:47; Luke 4:43; John 3:3-5]
 
-    #svg-heading("cross", hd-w: 5.5fr, img-w: 18pt, level: 2)[JESUS DIED AND ROSE FROM THE GRAVE]
+    #svg-heading("cross", hd-w: 5.5fr, img-w: 18pt, img-scale-y: 1.02, level: 2)[JESUS DIED AND ROSE FROM THE GRAVE]
     #v(-1mm) Jesus was crucified but God raised Him from the dead and seated Him at His right hand, proving Jesus' words are true. Jesus gave His life as a ransom, to open our eyes, to turn us back to God, to set us free from our
   ],
   [
