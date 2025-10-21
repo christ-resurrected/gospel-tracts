@@ -67,7 +67,7 @@
   [
     #svg-heading-x2(("skull_bones",))[WARNING!]
     The apostle Paul warns:
-    #verse[Gal.5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
+    #verse[Galatians 5:19-21][Now the works of the flesh are evident, which are: *adultery*, *fornication*, *uncleanness*, *lewdness*, *idolatry*, *sorcery*, *hatred*, *contentions*, *jealousies*, *outbursts of wrath*, *selfish ambitions*, *dissensions*, *heresies*, *envy*, *murders*, *drunkenness*, *revelries*, and *the like*; ...... that those who practice *such things* will NOT inherit the kingdom of God.]
 
     #verse[1-Cor.6:10][nor *thieves*, nor *covetous*, nor *drunkards*, nor *revilers*, nor *extortioners* will inherit the kingdom of God.]
     #seeAlso[vs 9; Rom.1:18-32, 2:3-9; 1-Tim.6:9-10; 2-Tim.3:1-5].
