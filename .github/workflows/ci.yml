@@ -1,4 +1,4 @@
-name: Compile and commit Typst files
+name: Compile and commit PDFs
 on:
   push:
   workflow_dispatch:
@@ -21,4 +21,4 @@ jobs:
       - name: Commit compiled PDFs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: '[Continuous Deployment]: Compile Typst to PDF'
+          commit_message: '[Continuous Integration]: Compile Typst to PDF'

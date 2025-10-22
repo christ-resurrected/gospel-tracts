@@ -1,5 +1,7 @@
 # Gospel Tracts
 
+[![Build Status](https://github.com/christ-resurrected/gospel-tracts/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/christ-resurrected/gospel-tracts/actions/workflows/ci.yml)
+
 ## [tract_A6_2s.pdf](pdf/tract_A6_2s.pdf)
 
 Inspired by Adam's [Gospel Tract #1](https://abideintheword.com/evangelism) at [AbideInTheWord.com](https://abideintheword.com).
