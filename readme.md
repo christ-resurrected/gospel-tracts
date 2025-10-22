@@ -12,9 +12,9 @@ For printing in the UK I recommend [Mixam Leaflets & Flyers](https://mixam.co.uk
 - Size: A6 (105 mm x 148 mm)
 - Colours (Front): Colour
 - Colours (Back): Colour
-- Paper Type: Gloss
+- Paper Type: Silk
 - Paper Weight: 300gsm
-- Lamination (Front): Matt or Gloss
+- Lamination (Front): Matt
 - Lamination (Back): Same As Front
 
 ## [tract_pocket_trifold.pdf](pdf/tract_pocket_trifold.pdf)
